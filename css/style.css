@@ -45,3 +45,28 @@ img {
         50%  { transform: scale(1,1)    translateY(0); }
         100% { transform: scale(1,1)    translateY(0); }
     }
+
+
+video::cue(v[voice="ah"]) {
+    letter-spacing: 20px;
+    padding: 1em;
+  background-color: teal;
+
+    }
+
+::cue(v[voice="click"]){
+      background-image: none;
+      font-size: 14px;
+      font-style: italic;
+}
+
+::cue(v[voice='Test']) {
+   color:#fff;
+   background:#00dd63;
+   background-size: 30px;
+   /* font-weight: 800;
+   font-size: 3em; */
+   font-stretch: extra-expanded;
+
+   
+}
