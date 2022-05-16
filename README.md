@@ -1,8 +1,9 @@
 # Human Centered Design 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+<img src="img/screencap.png">
 # 🌐 Live Demo
 Je kan de laatste versie van mijn prototype [hier](https://kiara1404.github.io/human-centered-design-2122/prototype2.html) bekijken. BELANGRIJK, kijk op full screen mode!
+
 
 # 🗂De opdracht
 Ik heb de opdracht gekregen om een oplossing te maken voor één persoon. Het ontwerp dat ik maak kan drie keer getest worden. Het is dan ook de bedoeling dat ik door middel van het testen tot betere inzichten kom en zo een beter ontwerp kan maken voor Marie.
