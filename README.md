@@ -22,7 +22,7 @@ In mijn ontwerp heb ik alle feedback van Marie zo goed mogelijk geprobeerd toe t
 * Beschrijf alleen geluid met hoe het klinkt als je het kan zien.
 * Beschrijf uitgebreider wanneer iets buiten het scherm gebeurd.
 
-Voor meer informatie over mijn oplossing wil ik je graag verwijzen naar mijn ]wiki page](https://github.com/kiara1404/human-centered-design-2122/wiki). Daar staat alles uitgebreid beschreven
+Voor meer informatie over mijn oplossing wil ik je graag verwijzen naar mijn [wiki page](https://github.com/kiara1404/human-centered-design-2122/wiki). Daar staat alles uitgebreid beschreven
 
 # License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
