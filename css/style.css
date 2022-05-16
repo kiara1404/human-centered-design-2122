@@ -8,65 +8,167 @@ h1 {
     margin: 0 auto;
     margin-bottom: 5em;
 }
-section {
-    width: 60vw;
+body > section {
+    width: 9    0vw;
     margin: 0 auto;
 
 }
 
-div {
-    background-color: rgb(182, 66, 116);
-    width: 60em;
-    height: 40em;
-    position: absolute;
-    z-index: -9;
-       background-color: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(23,113,219,1) 100%);
-    width: 60em;
-    padding: 5em;
-    animation: bounce-4 1s ease-in infinite;
-    animation-delay: -2.5s;
-}
-
-img {
+video {
     width: 100%;
-    margin: 5em 0;
-    z-index: 1;
 }
 
 
-
-@keyframes bounce-4 {
-        0%   { transform: scale(1,1)    translateY(0);
-                border-radius: 150px; }
-        10%  { transform: scale(1.1,.9) translateY(0); }
-        30%  { transform: scale(.9,1.1) translateY(0px);
-            border-radius: 350px;  }
-        50%  { transform: scale(1,1)    translateY(0); }
-        100% { transform: scale(1,1)    translateY(0); }
-    }
-
-
-video::cue(v[voice="ah"]) {
-    letter-spacing: 20px;
-    padding: 1em;
-  background-color: teal;
-
-    }
-
-::cue(v[voice="click"]){
-      background-image: none;
-      font-size: 14px;
-      font-style: italic;
+.text div {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    opacity: 0;
+    font-size: 2.5em;
+    color: #fff;
+    width: 700px;
 }
 
-::cue(v[voice='Test']) {
-   color:#fff;
-   background:#00dd63;
-   background-size: 30px;
-   /* font-weight: 800;
-   font-size: 3em; */
-   font-stretch: extra-expanded;
 
-   
+.text1 .text div:nth-of-type(1), .text2 .text div:nth-of-type(2), .text3 .text div:nth-of-type(3), .text4 .text div:nth-of-type(4),.text5 .text div:nth-of-type(5), .text6 .text div:nth-of-type(6), .text7 .text div:nth-of-type(7),
+.text8 .text div:nth-of-type(8),  .text9 .text div:nth-of-type(9), .text10 .text div:nth-of-type(10), .text11 .text div:nth-of-type(11), .text12 .text div:nth-of-type(12), .text13 .text div:nth-of-type(13){
+    opacity: 1;
+}
+
+div > span {
+    font-size: 1em;
+    font-style: italic;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+div:nth-of-type(1) span:nth-of-type(2) {
+    color: rgb(0, 183, 255);
+    
+}
+
+div:nth-of-type(1){
+    top: 35%;
+    left: 70%;
+    letter-spacing: -2px;
+    font-size: 25px;
+
+}
+
+div:nth-of-type(2){
+    left: 30%;
+    letter-spacing: -2px;
+    font-size: 25px;
+
+}
+
+div:nth-of-type(4) {
+    top: 70%;
+    left: 15%;
+    font-size: 20px;
+    animation: move 10s infinite;
+    animation-delay: 1s;
+}
+div:nth-of-type(5){
+    /* opacity: 1; */
+    left: 65%;
+    animation: stretch 2s infinite;
+    animation-direction: normal;
+    animation-delay: 170ms;
+}
+div:nth-of-type(3){
+    left: 65%;
+    letter-spacing: -2px;
+    font-size: 25px;
+}
+div:nth-of-type(6){
+    left: 65%;
+}
+div:nth-of-type(7){
+    font-size: 18px;
+    top: 40%;
+    left: 60%;
+}
+div:nth-of-type(8){
+    top: 80%;
+    left: 20%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+div:nth-of-type(9){
+    left: 60%;
+    
+}
+div:nth-of-type(10){
+    left: 30%;
+    
+}
+div:nth-of-type(15){
+    left: 30%;
+}
+
+.scratch, .scratch div:nth-of-type(14), .hmm, .hmm div:nth-of-type(15),.squish, .squish div:nth-of-type(16), .clang, .clang div:nth-of-type(17),
+.squeak, .squeaking div:nth-of-type(18), .squish2, .squish2 div:nth-of-type(16){
+    opacity: 1;
+}
+div:nth-of-type(12){
+    top: 20%;
+    left: 15%;
+}
+div:nth-of-type(14){
+    font-size: 18px;
+    top: 65%;
+    left: 35%;
+}
+div:nth-of-type(15){
+    padding: 18px;
+    width: 400px;
+    background-color: #0000007a;
+}
+.squish2 div:nth-of-type(16){
+    font-size: 50px;
+    top: 70%;
+    left: 45%;
+}
+.squish div:nth-of-type(16){
+    font-size: 50px;
+    top: 70%;
+    left: 30%;
+}
+div:nth-of-type(17){
+    top: 60%;
+    left: 83%;
+    font-size: 20px;
+    width: 100px;
+    transform: rotate(60deg);
+}
+
+@keyframes stretch {
+      0% {
+    transform: scale3d(1, 1, 1);
+    left: 60%;
+    
+  }
+
+  100% {
+    transform: scale3d(1.9, 1.5, 1);
+    left: 85%;
+    letter-spacing: 10px;
+  }
+
+}
+
+@keyframes move {
+    0% {
+        left: 20%;
+    }
+    25% {
+       left: 25%;
+    }
+    50% {
+        left: 30%;
+    }
+    100% {
+       left: 35%;
+    }
 }
