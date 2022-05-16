@@ -3,7 +3,7 @@
 <img src="img/screencap.png">
 
 # 🌐 Live Demo
-Je kan de laatste versie van mijn prototype [hier](https://kiara1404.github.io/human-centered-design-2122/prototype2.html) bekijken. BELANGRIJK, kijk op full screen mode!
+Je kan de laatste versie van mijn prototype [hier](https://kiara1404.github.io/human-centered-design-2122/index.html) bekijken. BELANGRIJK, kijk op full screen mode!
 
 
 # 🗂De opdracht
