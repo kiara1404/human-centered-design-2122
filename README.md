@@ -24,5 +24,5 @@ In mijn ontwerp heb ik alle feedback van Marie zo goed mogelijk geprobeerd toe t
 Voor meer informatie over mijn oplossing wil ik je graag verwijzen naar mijn ]wiki page](https://github.com/kiara1404/human-centered-design-2122/wiki). Daar staat alles uitgebreid beschreven
 
 # License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
